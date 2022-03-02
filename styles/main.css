@@ -52,13 +52,16 @@ a.link {
   height: 100vh;
   background-color: var(--color-fondo);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .h1 {
   font-size: 30px;
   color: var(--color-diversidad);
+  width: 150px;
+  text-align: center;
 }
 
 /*tablet version*/
