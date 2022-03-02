@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    -- 
+  } /*para poner variable .h1{ color: var (--nombrevariable);}*/
+  
+  
+  @media all and (min-width: 780px) { /*tamaño para una tablet para arriba*/
+  
+  
+  }
