@@ -12,9 +12,10 @@
   --color-diversidad: #ffffff;
 } /*para poner variable .h1{ color: var (--nombrevariable);}*/
 
+/*HEADER*/
 .header {
-  background-color: green;
-  width: 100wh;
+  background-color: var(--color-diversidad);
+  width: 100%; /*asegurate ue no es width:100vw*/
   position: sticky;
   top: 0;
   display: flex;
@@ -32,7 +33,6 @@
 .list {
   display: flex;
   flex-direction: row;
-
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 13px;
@@ -40,7 +40,23 @@
 }
 a.link {
   color: var(--color-texto-menu);
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*MAIN*/
+
+.main {
+  color: var(--color-diversidad);
+  height: 100vh;
+
+  background-color: var(--color-fondo);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /**/
