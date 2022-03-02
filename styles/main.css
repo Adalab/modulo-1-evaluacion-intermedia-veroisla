@@ -33,7 +33,6 @@
 .list {
   display: flex;
   flex-direction: row;
-  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 13px;
   list-style: none;
@@ -44,22 +43,43 @@ a.link {
   text-decoration: none;
   margin-left: 10px;
   margin-right: 10px;
+  font-size: 16px;
 }
 
 /*MAIN*/
 
+.h1 {
+ /* width: 90px;*/ */ver que hacer*/
+}
 .main {
-  color: var(--color-diversidad);
   height: 100vh;
-
   background-color: var(--color-fondo);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  
+}
+.h1 {
+  font-size: 30px;
+  color: var(--color-diversidad);
 }
 
 /**/
-@media all and (min-width: 780px) {
-  /*tamaño para una tablet para arriba*/
+@media all and (min-width: 768px) {
+  .header{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .h1 {
+    font-size: 40px;
+  }
+  .icon {
+    font-size: 115px;
+    margin: 20px 0px 20px 30px;
+  }
+ .list {
+   margin: 0px 30px 0px 0px;
+  
+ }
 }
