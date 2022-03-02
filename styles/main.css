@@ -1,15 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  :root {
-    -- 
-  } /*para poner variable .h1{ color: var (--nombrevariable);}*/
-  
-  
-  @media all and (min-width: 780px) { /*tamaño para una tablet para arriba*/
-  
-  
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family:font-family: 'Rubik', sans-serif;*/
+
+:root {
+  --color-texto-menu: #4a4a4a;
+  --color-fondo: #3cdbc0;
+  --color-diversidad: #ffffff;
+} /*para poner variable .h1{ color: var (--nombrevariable);}*/
+
+@media all and (min-width: 780px) {
+  /*tamaño para una tablet para arriba*/
+}
