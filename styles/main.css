@@ -44,7 +44,7 @@ a.link {
   margin-right: 10px;
   font-size: 16px;
   text-transform: uppercase;
-  /*padding:*/
+  /*padding:para ampliar zona clicable, ver que no cambie tamaños*/
 }
 
 /*MAIN*/
@@ -61,7 +61,8 @@ a.link {
 .h1 {
   font-size: 30px;
   color: var(--color-diversidad);
-  width: 150px;
+  /*width: 150px;*/
+  width: 11ch; /*En vez de poner width: 150px, puedo poner width=11ch, cada ch ocupa más o menos el espacio de una letra*/
   text-align: center;
   font-family: var(--font-family);
   text-transform: capitalize;
@@ -85,6 +86,6 @@ a.link {
   }
 
   .h1 {
-    width: 200px;
+    /*width: 200px;*/
   }
 }
